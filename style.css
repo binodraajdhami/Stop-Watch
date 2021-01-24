@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(212, 209, 209);
+}
+.maindiv{
+    margin: 80px auto 20px auto;
+    width: 220px;
+    height: 330px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    box-shadow: -5px -5px  7px white, 5px 5px 7px rgb(139, 131, 131);
+}
+.headingdiv{
+    height: 160px;
+    width: 160px;
+    margin: 10px auto;
+    border-radius: 100%;
+    border: 5px solid rgb(204, 69, 69);
+    background-color: rgba(155, 57, 57, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headings{
+    margin: 0 2px;
+    font-size: 30px;
+}
+.appbtn{
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: -2px -2px  5px white, 3px 3px 5px rgba(0, 0, 0, 0.13);
+    border: none;
+    outline: none;
+    margin: 20px 3px 2px 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.cnt{
+    height: 45px;
+    width: 80px;
+    border-radius: 20px;
+}
+.main{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.icon{
+    color: black;
+}
+.midicon{
+    margin-right: 3px;
+}
+.stop:hover{
+    background-color: rgb(173, 0, 0);
+    color: white;
+    box-shadow: -3px -3px  4px white, 3px 3px 5px rgba(0, 0, 0, 0.13);
+}
+.start:hover{
+    background-color: rgb(0, 95, 0);
+    color: white;
+    box-shadow: -3px -3px  4px white, 3px 3px 5px rgba(0, 0, 0, 0.13);
+}
+.num{
+   width: 30px;
+}
+.reset:hover{
+    background-color: rgb(108, 114, 108);
+    box-shadow: -3px -3px  4px white, 3px 3px 5px rgba(0, 0, 0, 0.13);
+}
+.disabled{
+    display: none;
+}

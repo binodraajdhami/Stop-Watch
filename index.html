@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5131f782b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="maindiv">
+        
+            <h3 class="headings main">Stop Watch App</h3>
+        
+        <div class="headingdiv">
+
+            <h2 class="headings num" id="hour">00</h2><b>:</b>
+            <h2 class="headings num" id="min">00</h2><b>:</b>
+            <h2 class="headings num" id="sec">00</h2><b>.</b>
+            <h2 class="headings num" id="msec">00</h2>
+        </div>
+        <div>
+            <p>Your time will not wait for you!</p>
+        </div>
+        <div>
+            <button class="appbtn start" id="start" onclick="start()"><i class="fas fa-play"></i></button>
+            <button class="appbtn start disabled" id="stop"><i class="fas fa-play"></i></button>
+            <button class="appbtn cnt stop" onclick="stop()"><b><i class="fas fa-stop midicon"></i></b> Stop</button>
+            <button class="appbtn reset" onclick="reset()" id="last" onmouseout=" resetb()" onmouseover="resetc()"><i id="fawhite" class="fas fa-undo icon"></i></button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
